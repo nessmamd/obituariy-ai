@@ -1,0 +1,232 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header{
+  display: flex;
+  border-bottom: grey solid 0.05cm;
+  border-top: grey solid 0.1cm;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+}
+
+.header button{
+  font-size: 1em;
+  padding: 0.5em 1em;
+  margin: 0;
+  background-color: white;
+  border: none;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.header button:hover{
+  background-color: darkgrey; 
+  cursor: pointer;
+}
+
+.header h1{
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.noID{
+  padding-top: 50px;
+  color: rgb(204, 201, 201);
+  text-align: center; 
+  font-size: 1.3em; 
+  width: 100%;
+}
+
+.file-upload{
+  display: inline-flex; 
+  align-items: center;
+  font-size: 15px; 
+  
+}
+#file-upload_placeholder{
+  text-decoration-line:underline
+}
+.file-upload_input{
+  display:none; 
+  /* hide the default type of input */
+}
+
+.file-upload__button{
+  -webkit-appearance: none;
+  background: none; 
+  font-size: medium;
+  border: none;
+  outline: none;
+  padding: 0.5em 0.8em;
+  cursor: pointer;
+}
+
+.file-upload__button:hover{
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.outer{
+  display: none;
+  align-items: center; /* Vertically center child elements */
+  justify-content: center; /* Horizontally center child elements */
+  backdrop-filter: blur(5px);
+  height: 100vh;
+}
+
+.deathsArray{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title {
+  font-size: medium;
+  color: grey;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.quiteditor{
+  margin-left: auto;
+}
+
+.file-upload{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.upper{
+  padding-top: 20px;
+}
+
+.deadName{
+  width:100%;
+  height: 30px; 
+}
+
+.creating{
+  display: block; 
+  margin: 0 auto; 
+}
+
+.file-upload--label{
+  max-width: 250px;
+  font-size: 0.95em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap; 
+}
+
+.dates {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.khalas{
+  padding-top: 20px;
+}
+
+.but{
+  cursor: pointer; 
+}
+
+.creating{
+  width: 100%;
+  height: 50px;
+  background-color: darkslategray;
+  font-size: medium;
+  color: white;
+  border:none;
+}
+
+.dateed{
+  padding-right: 30px;
+  border:none; 
+  padding-left: 20px;
+}
+
+.creating:hover{
+  background-color: grey;
+  cursor: pointer;
+}
+
+.quiteditor{
+  background-color: white;
+  border:none;
+  font-size:50px;
+  color: grey; 
+}
+
+.dates h2{
+  font-size: small;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px;
+  width: 300px;
+  height: 400px;
+  box-shadow: 2px 2px 5px #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+
+}
+/* need to go over some formating */
+.card img {
+  width: 100%;
+  height: 50%;
+
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.card h2 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 16px;
+}
